@@ -1,0 +1,173 @@
+@media screen and (max-width:1300px){
+    article div{
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width:1024px){
+    article div{
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 800px){
+    /*responsive*/
+}
+
+*{
+    margin:0px;
+}
+
+body, html{
+    background:#f7f7f2;
+    margin: 0;
+}
+
+/**************************************************************************************************************************************/
+/*************************************************************header********************************************************************/
+/**************************************************************************************************************************************/
+
+header{
+    text-align:center;
+    background-image:url("https://cdn.shopify.com/s/files/1/2509/2488/articles/les-bases-de-la-lithotherapie_1600x.jpg?v=1568123574");
+    padding: 1vh 0;
+}
+
+/**************************************************************************************************************************************/
+/*************************************************************menu********************************************************************/
+/**************************************************************************************************************************************/
+
+nav ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+}
+
+nav ul li{
+    margin: 10px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    padding: 1px;
+    background-color: black;
+    color: #FFF;
+}
+
+nav ul li a:hover{
+    background-color: #FFF;
+    color: #645244;
+}
+
+h1{
+    color: #312244;;
+    font-size: 2em;
+}
+
+h2{
+    font-size: 2em;
+}
+
+
+/**************************************************************************************************************************************/
+/*************************************************************contenu********************************************************************/
+/**************************************************************************************************************************************/
+
+aside{
+    background-color: black;
+    color: white;
+    padding-bottom: 20px;
+    padding: 10px;
+}
+
+aside:first-child{
+    margin-bottom: 20px;
+}
+
+article{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+}
+
+.container {
+  display:none,
+}
+
+.slider img{
+    display:none;
+}
+
+.cont-btn {
+    display: none;
+}
+
+.btn-nav {
+    display: none;
+}
+
+.div{
+    padding: 0;
+    flex-direction: column;
+    display: flex;
+    align-content: center;
+}
+
+img{
+    width: 100%;
+    height: 100%;
+}
+
+.galerie{
+    padding: 0;
+    flex-direction: column;
+    display: flex;
+}
+
+.galerie img{
+    width: 80%;
+    flex-direction: column;
+}
+
+.video-responsive { 
+    overflow:hidden; 
+    position:relative; 
+    height:0;
+}
+
+.video-responsive iframe { 
+    display: block;
+    left:0; 
+    top:0; 
+    height:100%; 
+    width:100%; 
+    position:absolute;
+}
+
+article p{
+    color: #645244;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
+    letter-spacing: 1.5px;
+    font-size: 16px !important;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/**************************************************************************************************************************************/
+/*************************************************************footer******************************************************************/
+/**************************************************************************************************************************************/
+
+footer{
+    background-color: black;
+    padding: 10px 0;
+}
+
+footer nav ul{
+    flex-direction: row;
+}

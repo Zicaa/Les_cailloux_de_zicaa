@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8"></meta>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"></meta>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
+    <title>Reserve naturelle</title>
+    <link rel="stylesheet" href="../filrouge/css/reserves_API.css"></link>
+    <link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'></link>
+</head>
+    <body>
+        <h2>Les réserves naturelles de la région occitanie :</h2>
+        <p>Code départemental</p>
+        <p><input type="text" id="dpt" name="dpt" required minlength="2" maxlength="4" size="4"></p>
+        <p>Afficher toutes les réserves</p>
+        <p><input type="button" value="Afficher" onclick="showAllReserve()"></p>
+        <p id="zone"></p>
+        <script src="js/reserves_API.js" defer></script>
+    </body>
+</html>
