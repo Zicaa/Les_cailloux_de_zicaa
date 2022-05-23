@@ -696,7 +696,7 @@
 													"top": 47,
 													"width": 62.736328125,
 													"height": 13,
-													"text": "Bdd"
+													"text": "Serveur"
 												},
 												{
 													"_type": "LabelView",
@@ -860,7 +860,7 @@
 											"left": 701,
 											"top": 240,
 											"width": 14,
-											"height": 55
+											"height": 233
 										}
 									],
 									"font": "Arial;13;0",
@@ -1023,229 +1023,6 @@
 								},
 								{
 									"_type": "UMLSeqMessageView",
-									"_id": "AAAAAAF9RxSuSNJStVA=",
-									"_parent": {
-										"$ref": "AAAAAAF8S2UvWH6rc3g="
-									},
-									"model": {
-										"$ref": "AAAAAAF9RxSuSNJRIAw="
-									},
-									"subViews": [
-										{
-											"_type": "EdgeLabelView",
-											"_id": "AAAAAAF9RxSuSNJTsIc=",
-											"_parent": {
-												"$ref": "AAAAAAF9RxSuSNJStVA="
-											},
-											"model": {
-												"$ref": "AAAAAAF9RxSuSNJRIAw="
-											},
-											"font": "Arial;13;0",
-											"left": 485,
-											"top": 269,
-											"width": 152.216796875,
-											"height": 13,
-											"alpha": 1.5707963267948966,
-											"distance": 10,
-											"hostEdge": {
-												"$ref": "AAAAAAF9RxSuSNJStVA="
-											},
-											"edgePosition": 1,
-											"text": "6 : Valider les informations"
-										},
-										{
-											"_type": "EdgeLabelView",
-											"_id": "AAAAAAF9RxSuSNJUXjQ=",
-											"_parent": {
-												"$ref": "AAAAAAF9RxSuSNJStVA="
-											},
-											"model": {
-												"$ref": "AAAAAAF9RxSuSNJRIAw="
-											},
-											"visible": false,
-											"font": "Arial;13;0",
-											"left": 561,
-											"top": 284,
-											"height": 13,
-											"alpha": 1.5707963267948966,
-											"distance": 25,
-											"hostEdge": {
-												"$ref": "AAAAAAF9RxSuSNJStVA="
-											},
-											"edgePosition": 1
-										},
-										{
-											"_type": "EdgeLabelView",
-											"_id": "AAAAAAF9RxSuSNJVOOg=",
-											"_parent": {
-												"$ref": "AAAAAAF9RxSuSNJStVA="
-											},
-											"model": {
-												"$ref": "AAAAAAF9RxSuSNJRIAw="
-											},
-											"visible": false,
-											"font": "Arial;13;0",
-											"left": 562,
-											"top": 249,
-											"height": 13,
-											"alpha": -1.5707963267948966,
-											"distance": 10,
-											"hostEdge": {
-												"$ref": "AAAAAAF9RxSuSNJStVA="
-											},
-											"edgePosition": 1
-										},
-										{
-											"_type": "UMLActivationView",
-											"_id": "AAAAAAF9RxSuSNJWCug=",
-											"_parent": {
-												"$ref": "AAAAAAF9RxSuSNJStVA="
-											},
-											"model": {
-												"$ref": "AAAAAAF9RxSuSNJRIAw="
-											},
-											"font": "Arial;13;0",
-											"left": 404,
-											"top": 265,
-											"width": 14,
-											"height": 29
-										}
-									],
-									"font": "Arial;13;0",
-									"head": {
-										"$ref": "AAAAAAF8S2WJp37iWF4="
-									},
-									"tail": {
-										"$ref": "AAAAAAF8S21DEn+m0YA="
-									},
-									"points": "708:265;417:265",
-									"nameLabel": {
-										"$ref": "AAAAAAF9RxSuSNJTsIc="
-									},
-									"stereotypeLabel": {
-										"$ref": "AAAAAAF9RxSuSNJUXjQ="
-									},
-									"propertyLabel": {
-										"$ref": "AAAAAAF9RxSuSNJVOOg="
-									},
-									"activation": {
-										"$ref": "AAAAAAF9RxSuSNJWCug="
-									}
-								},
-								{
-									"_type": "UMLSeqMessageView",
-									"_id": "AAAAAAF8S3E0Mn/QbPI=",
-									"_parent": {
-										"$ref": "AAAAAAF8S2UvWH6rc3g="
-									},
-									"model": {
-										"$ref": "AAAAAAF8S3E0Mn/P8fk="
-									},
-									"subViews": [
-										{
-											"_type": "EdgeLabelView",
-											"_id": "AAAAAAF8S3E0M3/R/P0=",
-											"_parent": {
-												"$ref": "AAAAAAF8S3E0Mn/QbPI="
-											},
-											"model": {
-												"$ref": "AAAAAAF8S3E0Mn/P8fk="
-											},
-											"font": "Arial;13;0",
-											"left": 423,
-											"top": 304,
-											"width": 276.76416015625,
-											"height": 13,
-											"alpha": 1.0303760912305193,
-											"distance": 11.661903789690601,
-											"hostEdge": {
-												"$ref": "AAAAAAF8S3E0Mn/QbPI="
-											},
-											"edgePosition": 1,
-											"text": "7 : Générer la requête connexion du client"
-										},
-										{
-											"_type": "EdgeLabelView",
-											"_id": "AAAAAAF8S3E0M3/ScZk=",
-											"_parent": {
-												"$ref": "AAAAAAF8S3E0Mn/QbPI="
-											},
-											"model": {
-												"$ref": "AAAAAAF8S3E0Mn/P8fk="
-											},
-											"visible": false,
-											"font": "Arial;13;0",
-											"left": 555,
-											"top": 289,
-											"height": 13,
-											"alpha": 1.5707963267948966,
-											"distance": 25,
-											"hostEdge": {
-												"$ref": "AAAAAAF8S3E0Mn/QbPI="
-											},
-											"edgePosition": 1
-										},
-										{
-											"_type": "EdgeLabelView",
-											"_id": "AAAAAAF8S3E0M3/T/Y0=",
-											"_parent": {
-												"$ref": "AAAAAAF8S3E0Mn/QbPI="
-											},
-											"model": {
-												"$ref": "AAAAAAF8S3E0Mn/P8fk="
-											},
-											"visible": false,
-											"font": "Arial;13;0",
-											"left": 555,
-											"top": 324,
-											"height": 13,
-											"alpha": -1.5707963267948966,
-											"distance": 10,
-											"hostEdge": {
-												"$ref": "AAAAAAF8S3E0Mn/QbPI="
-											},
-											"edgePosition": 1
-										},
-										{
-											"_type": "UMLActivationView",
-											"_id": "AAAAAAF8S3E0NH/UwwY=",
-											"_parent": {
-												"$ref": "AAAAAAF8S3E0Mn/QbPI="
-											},
-											"model": {
-												"$ref": "AAAAAAF8S3E0Mn/P8fk="
-											},
-											"fillColor": "#e2e2e2",
-											"font": "Arial;13;0",
-											"left": 701,
-											"top": 320,
-											"width": 14,
-											"height": 153
-										}
-									],
-									"font": "Arial;13;0",
-									"head": {
-										"$ref": "AAAAAAF8S21DEn+m0YA="
-									},
-									"tail": {
-										"$ref": "AAAAAAF8S2WJp37iWF4="
-									},
-									"points": "410:320;701:320",
-									"nameLabel": {
-										"$ref": "AAAAAAF8S3E0M3/R/P0="
-									},
-									"stereotypeLabel": {
-										"$ref": "AAAAAAF8S3E0M3/ScZk="
-									},
-									"propertyLabel": {
-										"$ref": "AAAAAAF8S3E0M3/T/Y0="
-									},
-									"activation": {
-										"$ref": "AAAAAAF8S3E0NH/UwwY="
-									}
-								},
-								{
-									"_type": "UMLSeqMessageView",
 									"_id": "AAAAAAF8S3GuUH/nviw=",
 									"_parent": {
 										"$ref": "AAAAAAF8S2UvWH6rc3g="
@@ -1264,17 +1041,17 @@
 												"$ref": "AAAAAAF8S3GuT3/mTCI="
 											},
 											"font": "Arial;13;0",
-											"left": 742,
-											"top": 335,
+											"left": 750,
+											"top": 329,
 											"width": 154,
-											"height": 26,
-											"alpha": 1.5444856130021816,
-											"distance": 76.02631123499285,
+											"height": 39,
+											"alpha": 1.5469903034426875,
+											"distance": 84.02380615040002,
 											"hostEdge": {
 												"$ref": "AAAAAAF8S3GuUH/nviw="
 											},
 											"edgePosition": 1,
-											"text": "8 : Exécuter la requête connexion du client",
+											"text": "6 : Exécuter la commande de connexion au compte client",
 											"wordWrap": true
 										},
 										{
@@ -1386,7 +1163,7 @@
 												"$ref": "AAAAAAF8S3JS7YAB4ek="
 											},
 											"edgePosition": 1,
-											"text": "9 : Informer réussite de connexion"
+											"text": "7 : Informer réussite de connexion"
 										},
 										{
 											"_type": "EdgeLabelView",
@@ -1488,9 +1265,9 @@
 												"$ref": "AAAAAAF8S2on6X9/Hic="
 											},
 											"font": "Arial;13;0",
-											"left": 144,
+											"left": 137,
 											"top": 456,
-											"width": 204.50244140625,
+											"width": 218.0166015625,
 											"height": 13,
 											"alpha": 1.5253735009815763,
 											"distance": 22.02271554554524,
@@ -1498,7 +1275,7 @@
 												"$ref": "AAAAAAF8S2on6X+An8U="
 											},
 											"edgePosition": 1,
-											"text": "10 : Valider connexion client"
+											"text": "8 : Afficher un message de bienvenue"
 										},
 										{
 											"_type": "EdgeLabelView",
@@ -1657,39 +1434,11 @@
 						},
 						{
 							"_type": "UMLMessage",
-							"_id": "AAAAAAF9RxSuSNJRIAw=",
-							"_parent": {
-								"$ref": "AAAAAAF8S2UvWH6qv7M="
-							},
-							"name": "Valider les informations",
-							"source": {
-								"$ref": "AAAAAAF8S21DAX+f0lI="
-							},
-							"target": {
-								"$ref": "AAAAAAF8S2WJpX7b88k="
-							}
-						},
-						{
-							"_type": "UMLMessage",
-							"_id": "AAAAAAF8S3E0Mn/P8fk=",
-							"_parent": {
-								"$ref": "AAAAAAF8S2UvWH6qv7M="
-							},
-							"name": "Générer la requête connexion du client",
-							"source": {
-								"$ref": "AAAAAAF8S2WJpX7b88k="
-							},
-							"target": {
-								"$ref": "AAAAAAF8S21DAX+f0lI="
-							}
-						},
-						{
-							"_type": "UMLMessage",
 							"_id": "AAAAAAF8S3GuT3/mTCI=",
 							"_parent": {
 								"$ref": "AAAAAAF8S2UvWH6qv7M="
 							},
-							"name": "Exécuter la requête connexion du client",
+							"name": "Exécuter la commande de connexion au compte client",
 							"source": {
 								"$ref": "AAAAAAF8S21DAX+f0lI="
 							},
@@ -1718,7 +1467,7 @@
 							"_parent": {
 								"$ref": "AAAAAAF8S2UvWH6qv7M="
 							},
-							"name": "Valider connexion client",
+							"name": "Afficher un message de bienvenue",
 							"source": {
 								"$ref": "AAAAAAF8S2WJpX7b88k="
 							},
@@ -1759,7 +1508,7 @@
 							"_parent": {
 								"$ref": "AAAAAAF8S2UvWH6qv7M="
 							},
-							"name": "Bdd",
+							"name": "Serveur",
 							"represent": {
 								"$ref": "AAAAAAF8S21C/n+eTj8="
 							},
@@ -1793,8 +1542,7 @@
 					"_parent": {
 						"$ref": "AAAAAAF8S2UvV36po7g="
 					},
-					"name": "Role3",
-					"type": ""
+					"name": "Role3"
 				}
 			]
 		}
