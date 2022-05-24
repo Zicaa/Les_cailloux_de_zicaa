@@ -13,11 +13,11 @@
                         <h1>Connexion</h1>
                             <div class="form-group">
                                 <input type ="text" name="pseudo" class="form-control" 
-                                placeholder="Pseudo" required="required" autocomplete="off">
+                                placeholder="Pseudo" required="required" autocomplete="off"></input>
                             </div>
                             <div class="form-group">
                                 <input type ="password" name="mdp" class="form-control" 
-                                placeholder="Mot de passe" required="required" autocomplete="off">
+                                placeholder="Mot de passe" required="required" autocomplete="off"></input>
                             </div>
                             <div class="form-group">
                                 <button type ="submit" value=connexion>Connexion</button>
