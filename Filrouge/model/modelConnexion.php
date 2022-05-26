@@ -1,5 +1,5 @@
 <?php
-// Je créé une requête préparée qui sélectionne tous les pseudos de ma BDD
+// Je créé une requête préparée qui sélectionne toutes les données du client
  try {
 
     $requete = $database->prepare("SELECT * FROM client WHERE

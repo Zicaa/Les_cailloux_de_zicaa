@@ -13,7 +13,7 @@ try {
         mdp_client = :mdp_client"
     ); 
     
-    // J'insère dans ma BDD les données récupérées dans les champs de mon formulaire
+    // J'insère dans ma BDD les données renseignées dans les champs de mon formulaire
     $execution = $requete->execute(array(
         'nom_client' => $nom, 
         'prenom_client' => $prenom, 
