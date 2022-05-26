@@ -1,18 +1,20 @@
+// Je cherche les différents éléments de la page
+
 const pages = document.querySelectorAll(".page")
 const header = document.querySelector("header")
-const nbPages = pages.length // nbre de pages du formulaire
+const nbPages = pages.length // Nombres de pages du formulaire
 let pageActive = 1
 
 console.log(nbPages)
 
-/*1 / CREATION DES NUMEROS DE PAGES DANS LE HEADER*/
-
+// J'attend le chargement de la page
 window.onload = () => {
-    // j'affiche la première page du formulaire
+    // J'affiche la première page du formulaire
     document.querySelector(".page").style.display = "initial"
-    // je parcours la liste des pages
+    // J'affiche les numéros des pages dans l'entête
+    // Je parcours la liste des pages
     pages.forEach((page, formulaire_inscription) => {
-        // je créé l'élément "numéro de page" dans le header
+        // Je créé l'élément "numéro de page"
         let element = document.createElement("div")
         element.classList.add("page-num")
         element.id = "num" + (formulaire_inscription +1)
@@ -23,16 +25,14 @@ window.onload = () => {
         header.appendChild(element)
     })
 
-/*2 GESTION DES BOUTONS*/
-
-    // boutons suivant
+    // Je gère les boutons "suivant"
     let boutons = document.querySelectorAll(".next")
 
     for(let bouton of boutons){
         bouton.addEventListener("click", pageSuivante);
     }
 
-    // boutons précédents
+    // Je gère les boutons "précédent"
     boutons = document.querySelectorAll(".prev")
 
     for(let bouton of boutons){
@@ -44,32 +44,47 @@ window.onload = () => {
 /* Cette fonction fait avancer le formulaire d'une page */
 
 function pageSuivante(){
+    // J'incrémente pageActive pour dire qu'on passe à la page suivante
     pageActive++
+
+    // Je masque toutes les pages
     for(let page of pages){
         page.style.display = "none"
     }
+
+    // J'affiche la page suivante
     this.parentElement.nextElementSibling.style.display = "initial"
 
+    // Je désactive la page active
     document.querySelector(".active").classList.remove("active")
+
+    // J'incrémente pageActive pour dire qu'on passe à la page suivante
     pageActive+
 
-    // j'active le nouveau numéro
+    // J'active le nouveau numéro
     document.querySelector("#num"+pageActive).classList.add("active")
 }
 
 /* Cette fonction fait reculer le formulaire d'une page */
 
 function pagePrecedente(){
+    // Je décrémente pageActive pour dire qu'on passe à la page précédente
     pageActive--
 
+    // Je masque toutes les pages
     for(let page of pages){
         page.style.display = "none"
     }
 
+    // J'affiche la page précédente
     this.parentElement.previousElementSibling.style.display = "initial"
+
+    // Je désactive la page active
     document.querySelector(".active").classList.remove("active")
+
+    // J'incrémente pageActive pour dire qu'on passe à la page suivante
     pageActive-
 
-    // j'active le nouveau numéro
+    // J'active le nouveau numéro
     document.querySelector("#num"+pageActive).classList.add("active")
 }
