@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <meta charset="utf-8" /></meta>
+        <meta charset="utf-8"></meta>
         <title>Les cailloux de Zicaa</title>
         <link rel="stylesheet" href="css/guide.css"></link>
         <link rel="stylesheet" href="css/responsive_guide.css" media="only screen and (max-width:800px)"></link>
