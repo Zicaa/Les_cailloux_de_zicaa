@@ -42,9 +42,8 @@
                 <article>
                     <h1>LES VERTUS THERAPEUTHIQUES DES PIERRES</h1>
                     <div class="video-responsive">
-                        <iframe width="854" height="480" src="https://www.youtube.com/embed/o26lc9L1ito" title="YouTube video player" 
-                        frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                    </div>
+                    <iframe width="854" height="480" src="https://www.youtube.com/embed/o26lc9L1ito" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>  
                 </article>
                 <article>
                         <p><br>
