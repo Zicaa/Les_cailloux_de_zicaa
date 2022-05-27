@@ -78,11 +78,11 @@
             <div id="galerie">
                     <h3>Nos produits</h3>
                     <div class="galerie">
-                        <a href="labradorite.php"><img src="images/labradorite.gif"></a>
-                        <a href="pierredelune.gif"><img src="images/pierredelune.gif"></a>
-                        <a href="amethyste.gif"><img src="images/amethyste.gif"></a>
-                        <a href="citrine.gif"><img src="images/citrine.gif"></a>
-                        <a href="cornaline.gif"><img src="images/cornaline.gif"></a>
+                        <a href="labradorite.php"><img src="images/labradorite.gif"></a></img>
+                        <a href="pierredelune.gif"><img src="images/pierredelune.gif"></a></img>
+                        <a href="amethyste.gif"><img src="images/amethyste.gif"></a></img>
+                        <a href="citrine.gif"><img src="images/citrine.gif"></a></img>
+                        <a href="cornaline.gif"><img src="images/cornaline.gif"></a></img>
                     </div>
             </div>
         <footer>
