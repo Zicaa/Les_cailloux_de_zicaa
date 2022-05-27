@@ -30,7 +30,7 @@
                     <h1>Guide pratique des pierres</h1>
                     <h2>Les améthystes</h2>
                     <div>
-                        <img src="images/Amethyste_article1.gif" alt="image article"></img>
+                        <img src="images/Amethyste_article1.gif" alt="image article"/></img>
                         <p>
                             <strong>L’améthyste</strong> tient son nom de son utilisation antique contre l’ivresse et les excès. Autrefois elle était des fois utilisée comme calice pour se prémunir d’éventuels tentatives
                             d’empoisonnement lors de banquets. C’est la pierres des papes symboliquement elle représente la spiritualité. Cette pierre à une couleur allant du violet clair transparent au 
@@ -43,7 +43,7 @@
                 <article>
                     <h2>Les citrines</h2>
                     <div>
-                    <img src="images/citrine_article2.gif"alt="image article"></img>
+                    <img src="images/citrine_article2.gif"alt="image article"/></img>
                         <p>
                             <strong>La citrine</strong> est une pierres jaune plus pale voir grise, bien que l’on rencontre plus de citrine jaune doré à orangé. cette dernière ne sont généralement pas des citrines 
                             naturelles mais des pierres obtenues par intervention de l’homme, une améthyste chauffée à haute température devient une citrine dite brulée. Le nom citrine vient du grec 
@@ -54,7 +54,7 @@
                 <article>
                     <h2>Les cornalines</h2>
                     <div>
-                    <img src="images/cornaline_article2.gif"alt="image article"></img>
+                    <img src="images/cornaline_article2.gif"alt="image article"/></img>
                         <p>
                             <strong>Le nom cornaline</strong> fait référence au fruit rouge du cornouiller cornus mas en latin, qui c’est une variété de calcédoine de couleur 
                             orange à rouge. La cornaline aide à prendre foi en soi même et à devenir d’avantage spontané. elle aide à aimer et accepter la vie, la prendre comme 
@@ -66,7 +66,7 @@
                 <article>
                     <h2>Les aventurines</h2>
                     <div>
-                    <img src="images/Aventurine_article4.gif"alt="image article"></img>
+                    <img src="images/Aventurine_article4.gif"alt="image article"/></img>
                         <p>
                             <strong>L'Aventurine</strong> est une belle pierre verte légèrement translucide. Elle possède parfois de fines paillettes dues à des inclusions de fushsite. 
                             C'est un symbole d'ouverture d'esprit, de chance et de bonne fortune. A travers cet article nous vous dévoilerons l'origine de la pierre 
@@ -78,11 +78,11 @@
             <div id="galerie">
                     <h3>Nos produits</h3>
                     <div class="galerie">
-                        <a href="labradorite.php"><img src="images/labradorite.gif"></img></a>
-                        <a href="pierredelune.gif"><img src="images/pierredelune.gif"></img></a>
-                        <a href="amethyste.gif"><img src="images/amethyste.gif"></img></a>
-                        <a href="citrine.gif"><img src="images/citrine.gif"></img></a>
-                        <a href="cornaline.gif"><img src="images/cornaline.gif"></img></a>
+                        <a href="labradorite.php"><img src="images/labradorite.gif"></a>
+                        <a href="pierredelune.gif"><img src="images/pierredelune.gif"></a>
+                        <a href="amethyste.gif"><img src="images/amethyste.gif"></a>
+                        <a href="citrine.gif"><img src="images/citrine.gif"></a>
+                        <a href="cornaline.gif"><img src="images/cornaline.gif"></a>
                     </div>
             </div>
         <footer>
